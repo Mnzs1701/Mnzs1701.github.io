@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: nmenezes@andrew.cmu.edu
+subtitle: MRSD 2025 @ CMU
 
 profile:
   align: right

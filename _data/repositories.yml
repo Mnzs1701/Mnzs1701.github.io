@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Mnzs1701
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Mnzs1701/camera_calib_python
+
