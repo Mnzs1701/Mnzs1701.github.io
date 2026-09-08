@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2D LiDAR Only SLAM
-description: A CUDA based 2D LiDAR SLAM algorithm running in real time.
+description: A CUDA accelerated 2D LiDAR SLAM algorithm running in real time on ROS1.
 importance: 4
 category: robotics
 ---
