@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MRSD 2025 @ CMU
+subtitle: Software Engineer at <a href="https://www.nvidia.com/">NVIDIA</a>. Robotics, Vision Language Models and large scale inference.
 
 profile:
   align: right
@@ -26,8 +26,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 Hi! I am Naman Menezes, I love making robots, writing cool software and tinkering with hardware.
-Currently, I am pursuing a Master's Degree in Robotic Systems Development at Carnegie Mellon University.
 
-In the past, I have worked on SLAM, Path Planning, 2D and 3D LiDAR Perception. I was a part of the Artificial Intelligence and Robotics Lab at IISc, Bangalore where I worked on Autonomous Navigation in outdoor environments.
+I am a Software Engineer at NVIDIA, where I train and deploy Vision Language Models for large scale high definition map generation. I trained the model that now labels cities in production, and built the inference stack that runs it across GPU clusters.
 
-I love playing basketball, piano and recently foosball. 
+Before that I completed a Master's in Robotic Systems Development at Carnegie Mellon University. I was previously part of the Artificial Intelligence and Robotics Lab at IISc, Bangalore, where I worked on autonomous navigation in GPS denied outdoor environments, SLAM, path planning and 2D/3D LiDAR perception.
+
+I love playing basketball, piano and recently foosball.
