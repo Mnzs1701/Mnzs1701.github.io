@@ -6,13 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Naman
 middle_name: 
 last_name: Menezes
-email: nmenezes@andrew.cmu.edu
+email: namanamenezes@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  MS Robotics Systems Development at RI Carnegie Mellon University
+  Software Engineer at NVIDIA. Robotics, Vision Language Models and large scale inference.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: robotics, vision language models, VLM, SLAM, autonomous navigation, machine learning, CUDA, ROS  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -70,7 +70,7 @@ github_username: Mnzs1701 # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: naman-menezes # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID

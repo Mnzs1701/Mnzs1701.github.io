@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Naman Antony Menezes
+    - name: Location
+      value: Santa Clara, CA
+    - name: Email
+      value: namanamenezes@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Robotics Systems Development
+      institution: Carnegie Mellon University, School of Computer Science
+      year: 2023 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA 4.06 / 4.00
+    - title: B.E. in Electronics and Communication
+      institution: R. V. College of Engineering
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 9.14 / 10.00
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer
+      institution: NVIDIA Corporation, California
+      year: 2025 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Trained a 600M-parameter Vision Language Model (DINOv2 encoder, Llama 3.1 backbone) with PyTorch DDP on 64 H100 GPUs across 8 nodes, followed by GRPO reinforcement learning post-training.
+        - Shipped the improved MapGPT to production, delivering HD maps across multiple US cities and labelling the entire San Francisco area in hours.
+        - Built the production inference stack on vLLM with caching and download optimizations, scaling VLM inference across AWS Kubernetes GPU clusters and driving thousands of GPU-hours.
+        - Cut map generation cost ~5x by running inference only along road geometry instead of full tile grids.
+        - Improved output precision and recall by 10% through inference-time scaling.
+    - title: Software Engineering Intern
+      institution: NVIDIA Corporation, California
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designed an exporter converting 3D Occupancy Pointcloud Maps from NVIDIA's proprietary format to the open source 3D Tile Format, with geospatially aligned tiles at multiple levels of detail.
+        - Scaled the architecture to run on massively parallel cloud servers, exporting city scale maps in under 5 hours.
+        - Implemented meshoptimizer compression, reducing 3D Tile Map size by ~5x and enabling city-scale visualization over a browser for the first time.
+    - title: Project Associate
+      institution: Artificial Intelligence and Robotics Lab (AIRL), Indian Institute of Science, Bangalore
+      year: 2022 - 2023
       description:
+        - Developed an Autonomous Driving Stack for GPS Denied Environments, presented at CES 2024.
+        - Built the entire low level communication architecture over CAN Bus.
+    - title: Software Engineering Intern
+      institution: Packet Forwarding Engine Team, Juniper Networks, Bangalore
+      year: 2022
+      description:
+        - Developed a Python tool that drastically reduces time spent debugging routers.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects and Competitions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: RoboHacks, Y Combinator
+      year: 2026
+      description:
+        - Winner, Overall Prize and Scale AI Data Track ($2,500 and two Innate robots).
+        - Built cross-robot spatial memory turning iPhone video and narration into a shared 3D map for pick and place.
+        - Integrated NVIDIA Parakeet ASR, 3D reconstruction, ICP, Gemma 3 VLM and an action chunking policy.
+    - title: "Meta Reality Labs: Photorealistic Human Avatars using Drones"
+      year: 2024
+      description:
+        - Created a human following drone that avoids obstacles using the DJI SDK and ROS2 on a Mavic 3 Enterprise.
+        - Trained a model on synthetically generated avatars and demonstrated a real time full body codec avatar.
+    - title: GPS Denied Autonomous Navigation
+      year: 2023
+      description:
+        - Coded a full stack autonomous navigation algorithm for GPS denied environments.
+        - Developed LiDAR map to real world registration using a particle filter, leveraging the PCL library.
+        - Implemented local and global planning giving real time obstacle avoidance and road alignment.
+    - title: 2D LiDAR Only SLAM
+      year: 2023
+      description:
+        - Designed a CUDA based 2D LiDAR SLAM algorithm in C++ for ROS1, optimized to run in real time.
+        - Implemented a Fourier Mellin Transform frontend and an SE-Sync (graphSLAM) backend.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
+        - Python, C/C++, CUDA, MATLAB, Verilog HDL
+    - title: Machine Learning
+      items:
+        - PyTorch, vLLM, Vision Language Models, DDP, GRPO, reinforcement learning
+        - Distributed multi-node training, fine-tuning, inference optimization
+    - title: Robotics
+      items:
+        - ROS1/ROS2, Gazebo, SLAM, sensor fusion, motion planning, PCL, LiDAR, point clouds, CAN Bus
+    - title: Infrastructure
+      items:
+        - AWS, Kubernetes, Docker, Linux, Git, CMake
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Basketball, piano, foosball.
