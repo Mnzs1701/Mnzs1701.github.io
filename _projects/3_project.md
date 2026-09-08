@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GPS Denied Autonomous Navigation
-description: A full stack autonomous navigation algorithm for environments without GPS.
+title: GPS Denied Navigation
+description: A full stack autonomous navigation stack for environments without GPS.
 importance: 3
 category: robotics
 ---
