@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("[data-email]").forEach(function(t){var e=atob(t.getAttribute("data-email")).split("").reverse().join("");t.setAttribute("href","mailto:"+e),t.hasAttribute("data-email-text")&&(t.textContent=e)})});
