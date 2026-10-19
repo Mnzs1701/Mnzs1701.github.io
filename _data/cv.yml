@@ -6,7 +6,7 @@
     - name: Location
       value: Santa Clara, CA
     - name: Email
-      value: [email removed]
+      email_encoded: bW9jLmxpYW1nQHNlemVuZW1hbmFtYW4=
 
 - title: Education
   type: time_table

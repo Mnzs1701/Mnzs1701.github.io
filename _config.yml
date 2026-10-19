@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Naman
 middle_name: 
 last_name: Menezes
-email: [email removed]
+email_encoded: bW9jLmxpYW1nQHNlemVuZW1hbmFtYW4= # base64 of the reversed address; decoded in the browser by assets/js/email.js
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Software Engineer at NVIDIA. Robotics, Vision Language Models and large scale inference.
 footer_text: >
