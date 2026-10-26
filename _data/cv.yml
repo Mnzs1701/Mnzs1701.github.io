@@ -29,10 +29,10 @@
       institution: NVIDIA Corporation, California
       year: 2025 - now
       description:
-        - Trained MapGPT, a 600M-parameter Vision Language Model (DINOv2 encoder, Llama 3.1 backbone), with PyTorch DDP on 64 H100 GPUs across 8 nodes, then post-trained it with reinforcement learning using GRPO.
+        - Trained <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Wu_MapGPT_A_Vision-Language_Model_for_Large-Scale_High-Definition_Map_Generation_CVPRF_2026_paper.pdf">MapGPT</a>, a 600M-parameter Vision Language Model (DINOv2 encoder, Llama 3.1 backbone), with PyTorch DDP on 64 H100 GPUs across 8 nodes, then post-trained it with reinforcement learning using GRPO.
         - Made model training 2x faster with an efficiency optimization, saving the company ~$500K annually.
         - Shipped MapGPT to production, delivering HD maps across multiple US cities and labelling the entire San Francisco area in hours.
-        - Owned a new human-in-the-loop map editing model end to end, from concept and data collection to training and deployment, enabling human-in-the-loop editing of large-scale maps.
+        - Owned a new human-in-the-loop map editor model end to end, from concept and data collection to training and deployment, enabling human-in-the-loop editing of large-scale maps.
         - Built the production inference stack on vLLM with caching and download optimizations, scaling VLM inference across AWS Kubernetes GPU clusters and driving thousands of GPU-hours.
         - Cut map generation cost ~5x by running inference only along road geometry instead of full tile grids.
         - Improved output precision and recall by 10% through inference-time scaling.
@@ -90,19 +90,15 @@
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Languages
-      items:
-        - Python, C/C++, CUDA, MATLAB, Verilog HDL
     - title: Machine Learning
       items:
-        - PyTorch, vLLM, Vision Language Models (VLM), Vision Language Action Models (VLA), DDP, GRPO, reinforcement learning
-        - Distributed multi-node training, fine-tuning, inference optimization
+        - PyTorch, vLLM, VLMs, VLAs, DDP, GRPO, reinforcement learning, multi-node training, fine-tuning
     - title: Robotics
       items:
-        - ROS1/ROS2, Gazebo, SLAM, sensor fusion, motion planning, PCL, LiDAR, point clouds, CAN Bus
-    - title: Infrastructure
+        - ROS1/ROS2, Gazebo, SLAM, sensor fusion, motion planning, PCL, LiDAR, point clouds
+    - title: Languages and Infrastructure
       items:
-        - AWS, Kubernetes, Docker, Linux, Git, CMake
+        - Python, C/C++, CUDA, AWS, Kubernetes, Docker, Linux, Git, CMake
 
 - title: Other Interests
   type: list
