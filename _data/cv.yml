@@ -29,8 +29,10 @@
       institution: NVIDIA Corporation, California
       year: 2025 - now
       description:
-        - Trained a 600M-parameter Vision Language Model (DINOv2 encoder, Llama 3.1 backbone) with PyTorch DDP on 64 H100 GPUs across 8 nodes, followed by GRPO reinforcement learning post-training.
-        - Shipped the improved MapGPT to production, delivering HD maps across multiple US cities and labelling the entire San Francisco area in hours.
+        - Trained MapGPT, a 600M-parameter Vision Language Model (DINOv2 encoder, Llama 3.1 backbone), with PyTorch DDP on 64 H100 GPUs across 8 nodes, then post-trained it with reinforcement learning using GRPO.
+        - Made model training 2x faster with an efficiency optimization, saving the company ~$500K annually.
+        - Shipped MapGPT to production, delivering HD maps across multiple US cities and labelling the entire San Francisco area in hours.
+        - Owned a new human-in-the-loop map editing model end to end, from concept and data collection to training and deployment, enabling human-in-the-loop editing of large-scale maps.
         - Built the production inference stack on vLLM with caching and download optimizations, scaling VLM inference across AWS Kubernetes GPU clusters and driving thousands of GPU-hours.
         - Cut map generation cost ~5x by running inference only along road geometry instead of full tile grids.
         - Improved output precision and recall by 10% through inference-time scaling.
@@ -56,6 +58,12 @@
 - title: Projects and Competitions
   type: time_table
   contents:
+    - title: Steerable Collaborative Multi-Robot Policies, Actor Labs Act-athon
+      year: 2026
+      description:
+        - Top 5 finish.
+        - Fine-tuned Physical Intelligence's π0.7 VLA into a single language-steerable policy controlling two collaborating robots.
+        - Designed and built a custom butter-passing robot (mobile base with two lift arms) that collaborates with an SO-101 arm.
     - title: RoboHacks, Y Combinator
       year: 2026
       description:
@@ -87,7 +95,7 @@
         - Python, C/C++, CUDA, MATLAB, Verilog HDL
     - title: Machine Learning
       items:
-        - PyTorch, vLLM, Vision Language Models, DDP, GRPO, reinforcement learning
+        - PyTorch, vLLM, Vision Language Models (VLM), Vision Language Action Models (VLA), DDP, GRPO, reinforcement learning
         - Distributed multi-node training, fine-tuning, inference optimization
     - title: Robotics
       items:

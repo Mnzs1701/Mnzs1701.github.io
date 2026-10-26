@@ -3,7 +3,7 @@ layout: page
 title: RoboHacks, Y Combinator
 description: Winner of the overall prize and the Scale AI data track. Cross-robot spatial memory.
 img: assets/img/robohacks_spatial_memory.jpg
-importance: 1
+importance: 2
 category: competitions
 ---
 

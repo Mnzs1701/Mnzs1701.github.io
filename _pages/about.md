@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi! I am Naman Menezes, I love making robots, writing cool software and tinkering with hardware.
 
-I am a Software Engineer at NVIDIA, where I train and deploy Vision Language Models for large scale high definition map generation. I trained the model that now labels cities in production, and built the inference stack that runs it across GPU clusters.
+I am a Software Engineer at NVIDIA, where I train and deploy Vision Language Models for large scale high definition map generation. I trained the model that now labels cities in production, built the inference stack that runs it across GPU clusters, and created a human-in-the-loop model for editing large-scale maps. Outside work I build robots and fine-tune robot foundation models, most recently a single language-steerable π0.7 policy driving two collaborating robots.
 
 Before that I completed a Master's in Robotic Systems Development at Carnegie Mellon University. I was previously part of the Artificial Intelligence and Robotics Lab at IISc, Bangalore, where I worked on autonomous navigation in GPS denied outdoor environments, SLAM, path planning and 2D/3D LiDAR perception.
 

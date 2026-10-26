@@ -3,7 +3,7 @@ layout: page
 title: Photorealistic Human Avatars
 description: Meta Reality Labs capstone. A drone that drives a real time full body codec avatar.
 img: assets/img/photorealistic_avatars.jpg
-importance: 2
+importance: 3
 category: robotics
 ---
 

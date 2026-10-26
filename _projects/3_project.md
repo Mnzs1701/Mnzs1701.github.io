@@ -3,7 +3,7 @@ layout: page
 title: GPS Denied Navigation
 description: A full stack autonomous navigation stack for environments without GPS.
 img: assets/img/gps_denied_navigation.jpg
-importance: 3
+importance: 4
 category: robotics
 ---
 
