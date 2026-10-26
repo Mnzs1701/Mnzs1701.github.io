@@ -87,6 +87,15 @@
         - Designed a CUDA based 2D LiDAR SLAM algorithm in C++ for ROS1, optimized to run in real time.
         - Implemented a Fourier Mellin Transform frontend and an SE-Sync (graphSLAM) backend.
 
+- title: Patents
+  type: time_table
+  contents:
+    - title: Single Drive Based Mapping and Scene Understanding
+      institution: Patent application, assignee NVIDIA
+      year: 2026
+      description:
+        - Co-inventor. Filed in the US.
+
 - title: Technical Skills
   type: nested_list
   contents:
